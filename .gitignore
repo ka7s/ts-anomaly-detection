@@ -1,0 +1,26 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# ===== OS / IDE =====
+.vscode/
+.idea/
+.DS_Store
+
+# ===== Data & ML Artifacts (DO NOT COMMIT) =====
+data/
+models/
+reports/
+
+# ===== ML files =====
+*.joblib
+*.pkl
+*.h5
+*.onnx
+
+# ===== Logs =====
+*.log

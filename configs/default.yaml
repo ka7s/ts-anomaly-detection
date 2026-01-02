@@ -1,0 +1,18 @@
+project:
+  name: ts-anomaly-detection
+  seed: 42
+
+paths:
+  data_dir: data
+  raw_dir: data/raw
+  processed_dir: data/processed
+
+skab:
+  repo_zip_url: "https://github.com/waico/SKAB/archive/refs/heads/master.zip"
+  extracted_root_dirname: "SKAB-master"
+  data_subdir: "data"
+
+dataset_prep:
+  timestamp_col: "datetime"
+  anomaly_col: "anomaly"
+
